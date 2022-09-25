@@ -24,6 +24,6 @@ ders.mailbot@gmail.com
 Or, follow along on [twitter](https://twitter.com/Senate_Trades)
 </b>
 
-Credit to Jie Jenn for his Gmail and Google Sheets API scripts, especially his [Google.py](/main/Google.py) file.
+Credit to Jie Jenn for his Gmail and Google Sheets API scripts, especially his Google.py file.
 
 ![](/res/repo_pics/git_logo.JPG)# SenateTrades-Release
