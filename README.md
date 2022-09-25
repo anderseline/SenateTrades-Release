@@ -1,5 +1,7 @@
 # Welcome to SenateTrades!
 
+This is a public repository for information about the now private SenateTrades project.
+
 <p>
     The goal of this program is to find small, under the radar companies whose equity has recently been disclosed as being purchased by US senators.
 </p>
