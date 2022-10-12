@@ -1,5 +1,7 @@
 # Welcome to SenateTrades!
 
+[Newsletter Signup Form](https://docs.google.com/forms/d/e/1FAIpQLScnSVtK0tDMzJJEuNwqXYTuMK2RWexg0pDT3X9ZJiQHW6beeQ/viewform?usp=sf_link)
+
 <p>
     The goal of this program is to find small, under the radar companies whose equity has recently been disclosed as being purchased by US senators.
 </p>
@@ -16,15 +18,15 @@ All trading history which the progam has sent alerts about can be found in this 
 
 In addition, I also feed the equity information to [News API Client](https://newsapi.org/docs/client-libraries/python), retrieve the top recent/relevant articles, and include these in the email alert. The ticker in the body header also contains a link to the equity's [Yahoo Finance](https://finance.yahoo.com/) description page. There is also a link which leads to the senator's website containing their contact information. Here's an example of an alert email:
 
-![](repo_pics/sample_email.png)
+![](/res/repo_pics/sample_email.png)
 
 And a tweet:
 
-![](repo_pics/sample_tweet.png)
+![](/res/repo_pics/sample_tweet.png)
 
 The program is run multiple times a day to keep users updated on any potential trades that may be worth researching more. Historically, it tends to go off about once or twice a month. I made this as a side project while studying at Lehigh University, and I hope you find it interesting!
 
-<b> If you are interested in being added to the email list, or have any other questions, please email:
+<b> If you have any other questions, please email:
 ders.mailbot@gmail.com
 
 Or, follow along on [twitter](https://twitter.com/Senate_Trades)
