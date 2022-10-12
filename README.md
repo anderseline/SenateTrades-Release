@@ -20,11 +20,11 @@ All trading history which the progam has sent alerts about can be found in this 
 
 In addition, I also feed the equity information to [News API Client](https://newsapi.org/docs/client-libraries/python), retrieve the top recent/relevant articles, and include these in the email alert. The ticker in the body header also contains a link to the equity's [Yahoo Finance](https://finance.yahoo.com/) description page. There is also a link which leads to the senator's website containing their contact information. Here's an example of an alert email:
 
-![](/res/repo_pics/sample_email.png)
+![](repo_pics/sample_email.png)
 
 And a tweet:
 
-![](/res/repo_pics/sample_tweet.png)
+![](repo_pics/sample_tweet.png)
 
 The program is run multiple times a day to keep users updated on any potential trades that may be worth researching more. Historically, it tends to go off about once or twice a month. I made this as a side project while studying at Lehigh University, and I hope you find it interesting!
 
