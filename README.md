@@ -2,6 +2,8 @@
 
 [Newsletter Signup Form](https://docs.google.com/forms/d/e/1FAIpQLScnSVtK0tDMzJJEuNwqXYTuMK2RWexg0pDT3X9ZJiQHW6beeQ/viewform?usp=sf_link)
 
+<i>This is the public repository for the now-private SenateTrades project</i>
+
 <p>
     The goal of this program is to find small, under the radar companies whose equity has recently been disclosed as being purchased by US senators.
 </p>
