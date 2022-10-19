@@ -35,9 +35,6 @@
     Once an interesting trade is found, an email alert is automatically dispatched, along with a tweet on our <a href="https://twitter.com/Senate_Trades">Twitter Page</a>, and an entry in our <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a>.
 </p>
 
-<p>
-    The logic system stems from the fact that senators buying small-sized companies is a bit odd. Usually, inidividuals with the amount of money and influence most senators have, tend to be very risk averse. They are expected to invest into more secure assets, like bonds or stock portfolios, rather than buying individual stocks - and, when they do, its usually in large, well-established companies. Buying small, volatile companies isn't something you'd expect to see from these kinds of people, which is why the program is more sensitive to sending out alerts if these kinds of stocks are purchased.
-</p>
 
 ## :mailbox: <b>What Do Alerts Look Like?</b> ##
 
