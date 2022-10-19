@@ -1,36 +1,62 @@
-# Welcome to SenateTrades!
+# :money_with_wings: Welcome to SenateTrades! :money_with_wings: #
 
-[Newsletter Signup Form](https://docs.google.com/forms/d/e/1FAIpQLScnSVtK0tDMzJJEuNwqXYTuMK2RWexg0pDT3X9ZJiQHW6beeQ/viewform?usp=sf_link)
+<b>SenateTrades</b> is a free service that tracks the equity trading activity of US senators and sends automated alerts whenever a particularly interesting trade occurs.
+
+# :high_brightness: Frequently Visited :high_brightness: #
+
+- <b>[Newsletter Signup Form](https://docs.google.com/forms/d/e/1FAIpQLScnSVtK0tDMzJJEuNwqXYTuMK2RWexg0pDT3X9ZJiQHW6beeQ/viewform?usp=sf_link)</b> :email:
+- <b>[Twitter](https://twitter.com/Senate_Trades)</b> :mega:
+- <b>[Dashboard](https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0)</b> :bar_chart:
+- <b>[Question & Suggestion Form](https://docs.google.com/forms/d/e/1FAIpQLSdivz9xjREirrWGmRUgVr6tBCtvoEJNF3Y0gkihADa0cpyaBg/viewform?usp=sf_link)</b> :postbox:
+
+# :thought_balloon: Most-Asked :thought_balloon: #
+
+## :key: <b>What's the Point?</b> ##
 
 <p>
-    The goal of this program is to find small, under the radar companies whose equity has recently been disclosed as being purchased by US senators.
+    Throughout 2022, a Republican Senator representing Alabama has accumulated hundreds of thousands of dollars worth of stock in a small e-commerce company. A few weeks after all of these trades settled, this company announced it was being acquired in a deal that would increase its stock value by 50% in a matter of minutes, making a representative of one of the poorest states in the nation more money than nearly all of his constituents make in a year. Sure, you could chalk these returns up to luck, but this isn't an isolated incident. Senators from all over the nation are consistently making trades in the stock market, and many of these appear to have possibly been made upon material information - something we at <b>SenateTrades</b> think is fundamentally wrong, and unfair to constituents.
+</p>
+<p>
+    <b>SenateTrades</b> is a service for investors and politically-minded people who think it’s unfair for US congress members to solely reap the benefits of stock trading with political connections. Any time a senator makes a particularly interesting trade, our service automatically sends a detailed and digestible email newsletter once the trade is published. These alerts are also published to our <a href="https://twitter.com/Senate_Trades">Twitter</a>, and archived in our <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a>.
+</p>
+<p>
+    This allows users to easily gain insight into what their senators are buying, without being overwhelmed by a mountain of financial information. This kickstarts you to perform further research, stay politically informed, sharpen your understanding of financial markets, or even make the trade yourself. At <b>SenateTrades</b>, we think its time for you to get a piece of the pie for yourself. 
 </p>
 
-This project tracks market trading activity of US senators by publishing trades which are over a certain value, or involve a small company. The script scrapes the [SEC EDGAR Insider Trading Disclosures List](https://sec.report/Senate-Stock-Disclosures) and searches for trades which have been filed on the current day. Alerts are send over email and [twitter](https://twitter.com/Senate_Trades). In short, the logic for alerting a trade is:
-- If the company is small (market cap under $2B), send an alert
-- If the company is medium sized (market cap between $2B and $10B), and the value of the trade is over $50,000, send an alert
-- If the trade is valued at over $100,000 regardless of company size, send an alert
+## :floppy_disk: <b>How's it Work?</b> ##
 
-This logic stems from the thought that senators buying small-sized companies seems a bit odd. Usually inidividuals with the amount of money and influence most senators have tend
-to be very risk averse, investing little into stocks: and when they do, its usually in funds or very large, blue-chip companies. Buying small, volatile companies isn't something you'd expect to see from these kinds of people, which is why the program is more sensitive to sending out alerts if these kinds of stocks are purchased.
+<p>
+    This project tracks stock market trading activity of US senators by scraping the <a href="https://sec.report/Senate-Stock-Disclosures">SEC EDGAR Insider Trading Disclosures List</a> multiple times each hour for the most up-to-date information, and looks for any and all trades published that day. A <i>particularly interesting trade</i> is defined as any purchase of common stock where:
+    <ul style="list-style-type:square">
+        <li>The company is small (market cap <$2B)</li>
+        <li>The purchase is worth over $100,000, regardless of company size</li>
+        <li>The company is medium sized (market cap between $2B and $10B), and the purchase is worth at least $50,000</li>
+    </ul>
+    Once an interesting trade is found, an email alert is automatically dispatched, along with a tweet on our <a href="https://twitter.com/Senate_Trades">Twitter Page</a>, and an entry in our <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a>.
+</p>
 
-All trading history which the progam has sent alerts about can be found in this [informational dashboard](https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE).
+<p>
+    The logic system stems from the fact that senators buying small-sized companies is a bit odd. Usually, inidividuals with the amount of money and influence most senators have, tend to be very risk averse. They are expected to invest into more secure assets, like bonds or stock portfolios, rather than buying individual stocks - and, when they do, its usually in large, well-established companies. Buying small, volatile companies isn't something you'd expect to see from these kinds of people, which is why the program is more sensitive to sending out alerts if these kinds of stocks are purchased.
+</p>
 
-In addition, I also feed the equity information to [News API Client](https://newsapi.org/docs/client-libraries/python), retrieve the top recent/relevant articles, and include these in the email alert. The ticker in the body header also contains a link to the equity's [Yahoo Finance](https://finance.yahoo.com/) description page. There is also a link which leads to the senator's website containing their contact information. Here's an example of an alert email:
+## :mailbox: <b>What Do Alerts Look Like?</b> ##
 
-![](/res/repo_pics/sample_email.png)
+<p>
+    Email alerts are meant to provide you with as much helpful information as possible - while still remaining digestible. These also contain helpful links to continue your research and stay politically active, including:
+    <ul style="list-style-type:square">
+        <li>A link to the stock's <a href="https://finance.yahoo.com/">Yahoo! Finance</a> page embedded in the ticker in the header</li>
+        <li>Up to 3 of the most recent and relevant news articles about the company</li>
+        <li>A link to the contact page of the senator who made the trade</li>
+        <li>A link to our a <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a></li>
+    </ul>
+</p>
 
-And a tweet:
+Here is a sample of an email alert
 
-![](/res/repo_pics/sample_tweet.png)
+<img src="repo_pics/sample_email.png" width=750 height=500><br><br>
+And a tweet!<br><br>
+<img src="repo_pics/sample_tweet.png" width=750>
 
-The program is run multiple times a day to keep users updated on any potential trades that may be worth researching more. Historically, it tends to go off about once or twice a month. I made this as a side project while studying at Lehigh University, and I hope you find it interesting!
-
-<b> If you have any other questions, please email:
-ders.mailbot@gmail.com
-
-Or, follow along on [twitter](https://twitter.com/Senate_Trades)
-</b>
 
 Credit to Jie Jenn for his Gmail and Google Sheets API scripts, especially his [Google.py](/main/Google.py) file.
 
