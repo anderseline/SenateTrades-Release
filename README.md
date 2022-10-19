@@ -44,7 +44,7 @@
         <li>A link to the stock's <a href="https://finance.yahoo.com/">Yahoo! Finance</a> page embedded in the ticker in the header</li>
         <li>Up to 3 of the most recent and relevant news articles about the company</li>
         <li>A link to the contact page of the senator who made the trade</li>
-        <li>A link to our a <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a></li>
+        <li>A link to our <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a></li>
     </ul>
 </p>
 
@@ -54,7 +54,17 @@ Here is a sample of an email alert
 And a tweet!<br><br>
 <img src="repo_pics/sample_tweet.png" width=750>
 
+## :chart_with_upwards_trend: <b>How Have Alerted Stocks Performed?</b> ##
 
-Credit to Jie Jenn for his Gmail and Google Sheets API scripts, especially his [Google.py](/main/Google.py) file.
+Full performance data can be found on our <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a>
 
-![](/res/repo_pics/git_logo.JPG)
+
+# :pencil2: Credits & Disclaimer :pencil2: #
+
+Credit to [Jie Jenn](https://www.youtube.com/channel/UCvVZ19DRSLIC2-RUOeWx8ug) for his tutorials on how to use the Gmail API service, as well as the Google Sheets API. Code from these tutorials is utilized in this project and helped greatly. Source code can be found [here](https://learndataanalysis.org/category/python-tutorial/google-sheets-api-python/).
+
+The [NewsAPI](https://newsapi.org/) service was used to find and aggregate news articles relevant to each trade. 
+
+This project began as a side-project by students at Lehigh University, and <b>none of the information SenateTrades provides is investment advice</b>. The primary purpose of this service is to keep users informed on the actions of their representatives, and to aid them in their own investment research. We do not suggest purchasing any or all stocks which are mentioned in any email alerts, tweets, or dashboard entries.
+
+![](/repo_pics/git_logo.JPG)
