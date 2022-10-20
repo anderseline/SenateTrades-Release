@@ -1,15 +1,15 @@
-# :money_with_wings: Welcome to SenateTrades! :money_with_wings: #
+# :money_with_wings:Welcome to SenateTrades!:money_with_wings: #
 
 <b>SenateTrades</b> is a free service that tracks the equity trading activity of US senators and sends automated alerts whenever a particularly interesting trade occurs.
 
-# :high_brightness: Frequently Visited :high_brightness: #
+# :high_brightness:Frequently Visited:high_brightness: #
 
 - <b>[Newsletter Signup Form](https://docs.google.com/forms/d/e/1FAIpQLScnSVtK0tDMzJJEuNwqXYTuMK2RWexg0pDT3X9ZJiQHW6beeQ/viewform?usp=sf_link)</b> :email:
 - <b>[Twitter](https://twitter.com/Senate_Trades)</b> :mega:
 - <b>[Dashboard](https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0)</b> :bar_chart:
 - <b>[Question & Suggestion Form](https://docs.google.com/forms/d/e/1FAIpQLSdivz9xjREirrWGmRUgVr6tBCtvoEJNF3Y0gkihADa0cpyaBg/viewform?usp=sf_link)</b> :postbox:
 
-# :thought_balloon: Most-Asked :thought_balloon: #
+# :thought_balloon:Most-Asked:thought_balloon: #
 
 ## :key: <b>What's the Point?</b> ##
 
@@ -59,7 +59,7 @@ And a tweet!<br><br>
 Full performance data can be found on our <a href="https://docs.google.com/spreadsheets/d/14eg98rZU5Rza-MeUQMQJAaJD90Iz4OwTniB5Pd4vrzE/edit#gid=0">Dashboard</a>
 
 
-# :pencil2: Credits & Disclaimer :pencil2: #
+# :pencil2:<i>Credits & Disclaimer</i>:pencil2: #
 
 Credit to [Jie Jenn](https://www.youtube.com/channel/UCvVZ19DRSLIC2-RUOeWx8ug) for his tutorials on how to use the Gmail API service, as well as the Google Sheets API. Code from these tutorials is utilized in this project and helped greatly. Source code can be found [here](https://learndataanalysis.org/category/python-tutorial/google-sheets-api-python/).
 
